@@ -1,6 +1,6 @@
 function buildMetadata(sample) {
   // Use `d3.json` to fetch the metadata for a sample
-  d3.json('https://github.com/bethanylindberg/Bio-DiversityDashboard/blob/master/data/samples.json').then((incomingData) => {
+  fetch('https://github.com/bethanylindberg/Bio-DiversityDashboard/blob/master/data/samples.json').then((incomingData) => {
     let metadata = []
     metadata = incomingData.metadata;
     // Use d3 to select the panel with id of `#sample-metadata`
@@ -42,7 +42,7 @@ function buildMetadata(sample) {
 function buildCharts(sample) {
   //Use `d3.json` to fetch the sample data for the plots
   //Build a Bar Chart slice() to grab the top 10 sample_values, otu_ids and labels (10 each)
-  d3.json('https://github.com/bethanylindberg/Bio-DiversityDashboard/blob/master/data/samples.json').then((incomingData) => {
+  fetch('https://github.com/bethanylindberg/Bio-DiversityDashboard/blob/master/data/samples.json').then((incomingData) => {
     sampleIndex = incomingData.names.indexOf(sample);
     let otuIds = incomingData.samples[sampleIndex].otu_ids.slice(0,10).reverse();
     otuIds = otuIds.map(function(e) {return 'OTU ' + e});
@@ -88,7 +88,7 @@ function buildCharts(sample) {
   });
 
   //Build a Bubble Chart using the sample data
-  d3.json('https://github.com/bethanylindberg/Bio-DiversityDashboard/blob/master/data/samples.json').then((incomingData) => {
+  fetch('https://github.com/bethanylindberg/Bio-DiversityDashboard/blob/master/data/samples.json').then((incomingData) => {
     sampleIndex = incomingData.names.indexOf(sample);
     let otuIds = incomingData.samples[sampleIndex].otu_ids;
     let sampleValues = incomingData.samples[sampleIndex].sample_values;
@@ -137,7 +137,7 @@ function buildCharts(sample) {
   });
 
   // buildGauge(data.WFREQ);
-  d3.json('https://github.com/bethanylindberg/Bio-DiversityDashboard/blob/master/data/samples.json').then((incomingData) => {
+  fetch('https://github.com/bethanylindberg/Bio-DiversityDashboard/blob/master/data/samples.json').then((incomingData) => {
 
     let metadata = []
     metadata = incomingData.metadata;
@@ -221,7 +221,7 @@ function init() {
   let dropdown = document.getElementById('selDataset');
   dropdown.length = 0;
   // Get names from data
-  d3.json('https://github.com/bethanylindberg/Bio-DiversityDashboard/blob/master/data/samples.json').then(function(data) {  
+  fetch('https://github.com/bethanylindberg/Bio-DiversityDashboard/blob/master/data/samples.json').then(function(data) {  
           let names = []
           let option;
           names = data.names;
