@@ -78,7 +78,6 @@ function buildCharts(sample) {
       marker: {
         size: sampleValues,
         color: otuIds,
-        colorscale='Viridis',
         //setting 'sizeref' to lower than 1 decreases the rendered size
         sizeref: .1,
         sizemode: 'area'
