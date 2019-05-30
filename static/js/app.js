@@ -9,22 +9,46 @@ function buildMetadata(sample) {
     metaPanel.html("");
     // Use `Object.entries` to add each key and value pair to the panel
     data = metadata.filter(subject => subject.id === parseInt(sample))[0];
+    //Append table
+    let tbody = metaPanel.append('table').classed('table table-hover',true).append('tbody')
+    //Append values to table
     Object.entries(data).forEach(([key,value])=>{
-      metaPanel.append('h5').text(`${key}: ${value}`);
-    });
+      if (key === "id"){
+        tbody.append('tr').append('td').text(`ID: ${value}`);
+      }
+      if (key === "ethnicity"){
+        tbody.append('tr').append('td').text(`Ethnicity: ${value}`);
+      }
+      if (key === "gender"){
+        tbody.append('tr').append('td').text(`Gender: ${value}`);
+      }
+      if (key === "age"){
+        tbody.append('tr').append('td').text(`Age: ${value}`);
+      }
+      if (key === "location"){
+        tbody.append('tr').append('td').text(`Location: ${value}`);
+      }
+      if (key === "bbtype"){ 
+          tbody.append('tr').append('td').text(`Belly Button Type: ${value}`);
+      }
+    if (key === "wfreq"){
+      tbody.append('tr').append('td').text(`Washing Frequency: ${value}`);
+    }
+  });
+
   });
 } 
 
 function buildCharts(sample) {
   //Use `d3.json` to fetch the sample data for the plots
-  
+  //Build a Bar Chart slice() to grab the top 10 sample_values, otu_ids and labels (10 each)
   d3.json('../data/samples.json').then((incomingData) => {
     sampleIndex = incomingData.names.indexOf(sample);
     let otuIds = incomingData.samples[sampleIndex].otu_ids.slice(0,10).reverse();
     otuIds = otuIds.map(function(e) {return 'OTU ' + e});
     let sampleValues = incomingData.samples[sampleIndex].sample_values.slice(0,10).reverse();
     let otuLabels = incomingData.samples[sampleIndex].otu_labels.slice(0,10).reverse();
-    //Build a Bar Chart slice() to grab the top 10 sample_values, otu_ids and labels (10 each).
+    
     var trace1 = {
       x: sampleValues,
       y: otuIds,
@@ -32,7 +56,7 @@ function buildCharts(sample) {
       text: otuLabels,
       orientation:'h',
       marker: {
-        color: 'rgb(78,179,211)'
+        color: 'rgb(123,204,196)'
       }
     };
     
@@ -78,6 +102,7 @@ function buildCharts(sample) {
       marker: {
         size: sampleValues,
         color: otuIds,
+        colorscale: 'Greens',
         //setting 'sizeref' to lower than 1 decreases the rendered size
         sizeref: .1,
         sizemode: 'area'
@@ -87,6 +112,7 @@ function buildCharts(sample) {
   var data = [trace1];
 
   var layout = {
+    autosize:true,
     showlegend: false,
     xaxis: {
       title:"OTU Label",
@@ -96,8 +122,8 @@ function buildCharts(sample) {
       title:"OTU Value",
       zeroline: true,
     },
-    height: 350,
-    width: 800,
+    // height: 350,
+    // width: 800,
     margin:{
       l: 100,
       r: 50,
@@ -106,19 +132,13 @@ function buildCharts(sample) {
     }
   };
 
-  Plotly.newPlot('bubble', data, layout);
-
-  window.onresize = function() {
-    Plotly.relayout('bubble', {
-      width: 0.3 * window.innerWidth,
-      height: 0.3 * window.innerHeight
-    })
-  }
+  Plotly.newPlot('bubble', data, layout,{responsive: true});
 
   });
 
   // buildGauge(data.WFREQ);
   d3.json('../data/samples.json').then((incomingData) => {
+
     let metadata = []
     metadata = incomingData.metadata;
     // frequency
@@ -133,7 +153,7 @@ function buildCharts(sample) {
     var x = radius * Math.cos(radians);
     var y = radius * Math.sin(radians);
 
-    // Path: may have to change to create a better triangle
+    //Path
     var mainPath = 'M -.0 -0.025 L .0 0.025 L ',
         pathX = String(x),
         space = ' ',
@@ -143,14 +163,14 @@ function buildCharts(sample) {
 
     var data = [{ type: 'scatter',
       x: [0], y:[0],
-        marker: {size: 28, color:'850000'},
+        marker: {size: 20, color:'rgba(8,64,129,.9)'},
         showlegend: false,
         name: 'frequency',
         text: level,
         hoverinfo: 'name+text'},
       { values: [81/9,81/9, 81/9, 81/9, 81/9, 81/9, 81/9, 81/9, 81/9, 81],
       rotation: 90,
-      text: ['8-9','7-8','6-7','5-6','4-5','3-4', '2-3','1-2','0-1'],
+      text: ['','Daily','','','','','','Weekly',''],
       textinfo: 'text',
       textposition:'inside',
       marker: {colors:['rgb(8,64,129)','rgb(8,104,172)','rgb(43,140,190)', 'rgb(78,179,211)','rgb(123,204,196)', 
@@ -159,16 +179,16 @@ function buildCharts(sample) {
       hoverinfo: 'label',
       hole: .5,
       type: 'pie',
-      showlegend: false
+      showlegend: false,
     }];
 
     var layout = {
       shapes:[{
           type: 'path',
           path: path,
-          fillcolor: '850000',
+          fillcolor: 'rgba(8,64,129,.9)',
           line: {
-            color: '850000'
+            color: 'rgba(8,64,129,.9)'
           }
         }],
       height: 380,
@@ -185,9 +205,14 @@ function buildCharts(sample) {
       }
     };
 
-    Plotly.newPlot('guage', data, layout, {responsive: true});
+    Plotly.newPlot('gauge', data, layout,{responsive:true});
     });
 
+    window.onresize = function() {
+      Plotly.relayout('gauge', {
+        autosize:true
+      })
+    }
 
 }
 
