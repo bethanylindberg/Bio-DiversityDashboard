@@ -160,7 +160,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":24.0,
-        "location":"Beaufort/NC",
+        "location":"Beaufort, NC",
         "bbtype":"I",
         "wfreq":2.0
      },
@@ -169,7 +169,7 @@
         "ethnicity":"Caucasian/Midleastern",
         "gender":"F",
         "age":34.0,
-        "location":"Chicago/IL",
+        "location":"Chicago, IL",
         "bbtype":"I",
         "wfreq":1.0
      },
@@ -178,7 +178,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":49.0,
-        "location":"Omaha/NE",
+        "location":"Omaha, NE",
         "bbtype":"I",
         "wfreq":1.0
      },
@@ -187,7 +187,7 @@
         "ethnicity":"European",
         "gender":"M",
         "age":44.0,
-        "location":"NewHaven/CT",
+        "location":"NewHaven, CT",
         "bbtype":"I",
         "wfreq":1.0
      },
@@ -196,7 +196,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":48.0,
-        "location":"Philidelphia/PA",
+        "location":"Philidelphia, PA",
         "bbtype":"I",
         "wfreq":1.0
      },
@@ -205,7 +205,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":42.0,
-        "location":"Deerfield/MA",
+        "location":"Deerfield, MA",
         "bbtype":"I",
         "wfreq":3.0
      },
@@ -214,7 +214,7 @@
         "ethnicity":"Caucasian",
         "gender":"M",
         "age":49.0,
-        "location":"ChapelHill/NC",
+        "location":"ChapelHill, NC",
         "bbtype":"I",
         "wfreq":6.0
      },
@@ -223,7 +223,7 @@
         "ethnicity":"Caucasian",
         "gender":"M",
         "age":20.0,
-        "location":"ChapelHill/NC",
+        "location":"ChapelHill, NC",
         "bbtype":"I",
         "wfreq":null
      },
@@ -232,7 +232,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":51.0,
-        "location":"Durham/NC",
+        "location":"Durham, NC",
         "bbtype":"I",
         "wfreq":3.0
      },
@@ -241,7 +241,7 @@
         "ethnicity":"Caucasian",
         "gender":"M",
         "age":51.0,
-        "location":"NewYork/NY",
+        "location":"NewYork, NY",
         "bbtype":"I",
         "wfreq":5.0
      },
@@ -250,7 +250,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":51.0,
-        "location":"Seattle/WA",
+        "location":"Seattle, WA",
         "bbtype":"I",
         "wfreq":7.0
      },
@@ -259,7 +259,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":38.0,
-        "location":"Chicago/IL",
+        "location":"Chicago, IL",
         "bbtype":"I",
         "wfreq":2.0
      },
@@ -268,7 +268,7 @@
         "ethnicity":"Caucasian",
         "gender":"M",
         "age":26.0,
-        "location":"NewYork/NY",
+        "location":"NewYork, NY",
         "bbtype":"I",
         "wfreq":7.0
      },
@@ -277,7 +277,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":27.0,
-        "location":"NewYork/NY",
+        "location":"NewYork, NY",
         "bbtype":"I",
         "wfreq":7.0
      },
@@ -286,7 +286,7 @@
         "ethnicity":"Caucasian",
         "gender":"M",
         "age":16.0,
-        "location":"Jacksonville/NC",
+        "location":"Jacksonville, NC",
         "bbtype":"I",
         "wfreq":7.0
      },
@@ -295,7 +295,7 @@
         "ethnicity":"Caucasian",
         "gender":"M",
         "age":43.0,
-        "location":"Wilmington/NC",
+        "location":"Wilmington, NC",
         "bbtype":"I",
         "wfreq":5.0
      },
@@ -304,7 +304,7 @@
         "ethnicity":"Caucasian",
         "gender":"M",
         "age":40.0,
-        "location":"Carrboro/NC",
+        "location":"Carrboro, NC",
         "bbtype":"I",
         "wfreq":5.0
      },
@@ -313,7 +313,7 @@
         "ethnicity":"Caucasian",
         "gender":"M",
         "age":48.0,
-        "location":"Lexington/NC",
+        "location":"Lexington, NC",
         "bbtype":"I",
         "wfreq":7.0
      },
@@ -340,7 +340,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":33.0,
-        "location":"Ithaca/NY",
+        "location":"Ithaca, NY",
         "bbtype":"I",
         "wfreq":3.5
      },
@@ -349,7 +349,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":43.0,
-        "location":"UK/London",
+        "location":"UK, London",
         "bbtype":"I",
         "wfreq":7.0
      },
@@ -358,16 +358,16 @@
         "ethnicity":"Caucasian",
         "gender":"M",
         "age":56.0,
-        "location":"Needham/MA",
+        "location":"Needham, MA",
         "bbtype":"I",
         "wfreq":0.0
      },
      {
         "id":967,
-        "ethnicity":"Caucasian/Jewish",
+        "ethnicity":"Caucasian, Jewish",
         "gender":"F",
         "age":43.0,
-        "location":"ChapelHill/NC",
+        "location":"ChapelHill, NC",
         "bbtype":"I",
         "wfreq":1.0
      },
@@ -376,7 +376,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":38.0,
-        "location":"St.Louis/MI",
+        "location":"St.Louis, MI",
         "bbtype":"I",
         "wfreq":6.0
      },
@@ -385,7 +385,7 @@
         "ethnicity":"Caucasian/Asian",
         "gender":"F",
         "age":31.0,
-        "location":"ChevyChase/MD",
+        "location":"ChevyChase, MD",
         "bbtype":"I",
         "wfreq":7.0
      },
@@ -394,7 +394,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":42.0,
-        "location":"SanDiego/CA",
+        "location":"SanDiego, CA",
         "bbtype":"i",
         "wfreq":0.0
      },
@@ -403,7 +403,7 @@
         "ethnicity":"Asian(South)",
         "gender":"M",
         "age":36.0,
-        "location":"SantaBarbara/CA",
+        "location":"SantaBarbara, CA",
         "bbtype":"I",
         "wfreq":1.0
      },
@@ -412,7 +412,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":31.0,
-        "location":"Charlotte/NC",
+        "location":"Charlotte, NC",
         "bbtype":"I",
         "wfreq":7.0
      },
@@ -421,7 +421,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":4.0,
-        "location":"Charlotte/NC",
+        "location":"Charlotte, NC",
         "bbtype":"I",
         "wfreq":1.0
      },
@@ -430,7 +430,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":57.0,
-        "location":"Raleigh/NC",
+        "location":"Raleigh, NC",
         "bbtype":"I",
         "wfreq":null
      },
@@ -439,7 +439,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":60.0,
-        "location":"NewCanaan/CT",
+        "location":"NewCanaan, CT",
         "bbtype":"I",
         "wfreq":3.0
      },
@@ -448,7 +448,7 @@
         "ethnicity":"Hispanic",
         "gender":"F",
         "age":21.0,
-        "location":"Durham/NC",
+        "location":"Durham, NC",
         "bbtype":null,
         "wfreq":null
      },
@@ -493,7 +493,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":9.0,
-        "location":"ChapelHill,NC",
+        "location":"ChapelHill, NC",
         "bbtype":"i",
         "wfreq":2.0
      },
@@ -502,7 +502,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":41.0,
-        "location":"Raleigh,NC",
+        "location":"Raleigh, NC",
         "bbtype":"i",
         "wfreq":0.0
      },
@@ -511,7 +511,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":44.0,
-        "location":"Raleigh,NC",
+        "location":"Raleigh, NC",
         "bbtype":"i",
         "wfreq":1.0
      },
@@ -520,7 +520,7 @@
         "ethnicity":"Caucasian",
         "gender":"M",
         "age":49.0,
-        "location":"Raleigh,NC",
+        "location":"Raleigh, NC",
         "bbtype":"i",
         "wfreq":null
      },
@@ -529,7 +529,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":2.0,
-        "location":"Atlanta,GA",
+        "location":"Atlanta, GA",
         "bbtype":null,
         "wfreq":7.0
      },
@@ -538,7 +538,7 @@
         "ethnicity":"Caucasian",
         "gender":"M",
         "age":24.0,
-        "location":"Voss,NC",
+        "location":"Voss, NC",
         "bbtype":"i",
         "wfreq":5.0
      },
@@ -556,7 +556,7 @@
         "ethnicity":"Caucasian",
         "gender":"f",
         "age":31.0,
-        "location":"Smithfield,NC",
+        "location":"Smithfield, NC",
         "bbtype":"i",
         "wfreq":7.0
      },
@@ -565,7 +565,7 @@
         "ethnicity":"Caucasian",
         "gender":"m",
         "age":33.0,
-        "location":"Smithfield,NC",
+        "location":"Smithfield, NC",
         "bbtype":null,
         "wfreq":7.0
      },
@@ -574,7 +574,7 @@
         "ethnicity":"Caucasian",
         "gender":"m",
         "age":10.0,
-        "location":"Smithfield,NC",
+        "location":"Smithfield, NC",
         "bbtype":null,
         "wfreq":7.0
      },
@@ -583,7 +583,7 @@
         "ethnicity":"Caucasian",
         "gender":"m",
         "age":46.0,
-        "location":"Raleigh,NC",
+        "location":"Raleigh, NC",
         "bbtype":"i",
         "wfreq":0.0
      },
@@ -592,7 +592,7 @@
         "ethnicity":"Caucasian",
         "gender":"f",
         "age":10.0,
-        "location":"Raleigh,NC",
+        "location":"Raleigh, NC",
         "bbtype":"i",
         "wfreq":0.0
      },
@@ -799,7 +799,7 @@
         "ethnicity":"Black",
         "gender":"f",
         "age":10.0,
-        "location":"Pinehurst,NC",
+        "location":"Pinehurst, NC",
         "bbtype":"i",
         "wfreq":4.0
      },
@@ -808,7 +808,7 @@
         "ethnicity":"Caucasion",
         "gender":"f",
         "age":10.0,
-        "location":"Pinehurst,NC",
+        "location":"Pinehurst, NC",
         "bbtype":null,
         "wfreq":5.0
      },
@@ -817,7 +817,7 @@
         "ethnicity":"White",
         "gender":"m",
         "age":12.0,
-        "location":"Pinehurst,NC",
+        "location":"Pinehurst, NC",
         "bbtype":"i",
         "wfreq":3.0
      },
@@ -826,7 +826,7 @@
         "ethnicity":"Black",
         "gender":"f",
         "age":40.0,
-        "location":"Durham,NC",
+        "location":"Durham, NC",
         "bbtype":null,
         "wfreq":7.0
      },
@@ -835,7 +835,7 @@
         "ethnicity":"Black",
         "gender":"f",
         "age":6.0,
-        "location":"Durham,NC",
+        "location":"Durham, NC",
         "bbtype":null,
         "wfreq":5.0
      },
@@ -844,7 +844,7 @@
         "ethnicity":"Black",
         "gender":"m",
         "age":3.0,
-        "location":"Durham,NC",
+        "location":"Durham, NC",
         "bbtype":null,
         "wfreq":5.0
      },
@@ -853,7 +853,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":55.0,
-        "location":"Cary,NC",
+        "location":"Cary, NC",
         "bbtype":"o",
         "wfreq":7.0
      },
@@ -871,7 +871,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":null,
-        "location":"Sarasota,FL",
+        "location":"Sarasota, FL",
         "bbtype":null,
         "wfreq":null
      },
@@ -880,7 +880,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":36.0,
-        "location":"Raleigh,NC",
+        "location":"Raleigh, NC",
         "bbtype":"I",
         "wfreq":4.0
      },
@@ -889,7 +889,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":57.0,
-        "location":"Raleigh,NC",
+        "location":"Raleigh, NC",
         "bbtype":"I",
         "wfreq":3.0
      },
@@ -898,7 +898,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":33.0,
-        "location":"Shrewsbury,UK",
+        "location":"Shrewsbury, UK",
         "bbtype":"I",
         "wfreq":0.0
      },
@@ -907,7 +907,7 @@
         "ethnicity":"Caucasian",
         "gender":"M",
         "age":30.0,
-        "location":"Shrewsbury,UK",
+        "location":"Shrewsbury, UK",
         "bbtype":"I",
         "wfreq":0.0
      },
@@ -916,7 +916,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":28.0,
-        "location":"WashingtonDC",
+        "location":"Washington, DC",
         "bbtype":"I",
         "wfreq":0.0
      },
@@ -925,7 +925,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":27.0,
-        "location":"DurhamNC",
+        "location":"Durham, NC",
         "bbtype":"I",
         "wfreq":0.0
      },
@@ -934,7 +934,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":24.0,
-        "location":"WashingtonDC",
+        "location":"Washington, DC",
         "bbtype":"I",
         "wfreq":3.0
      },
@@ -943,7 +943,7 @@
         "ethnicity":"Caucasian",
         "gender":"M",
         "age":35.0,
-        "location":"Boone,NC",
+        "location":"Boone, NC",
         "bbtype":"I",
         "wfreq":0.0
      },
@@ -952,7 +952,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":57.0,
-        "location":"Raleigh,NC",
+        "location":"Raleigh, NC",
         "bbtype":"I",
         "wfreq":3.0
      },
@@ -961,7 +961,7 @@
         "ethnicity":"Caucasian",
         "gender":"M",
         "age":35.0,
-        "location":"Raleigh,NC",
+        "location":"Raleigh, NC",
         "bbtype":"I",
         "wfreq":0.0
      },
@@ -970,7 +970,7 @@
         "ethnicity":"Caucasian",
         "gender":"M",
         "age":33.0,
-        "location":"Waynesville,NC",
+        "location":"Waynesville, NC",
         "bbtype":"I",
         "wfreq":0.0
      },
@@ -979,7 +979,7 @@
         "ethnicity":"Caucasian",
         "gender":"M",
         "age":32.0,
-        "location":"Raleigh,NC",
+        "location":"Raleigh, NC",
         "bbtype":"I",
         "wfreq":0.0
      },
@@ -988,7 +988,7 @@
         "ethnicity":null,
         "gender":"M",
         "age":38.0,
-        "location":"FallsChurch,VA",
+        "location":"FallsChurch, VA",
         "bbtype":"I",
         "wfreq":0.0
      },
@@ -997,7 +997,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":27.0,
-        "location":"Boone,NC",
+        "location":"Boone, NC",
         "bbtype":"I",
         "wfreq":0.0
      },
@@ -1006,7 +1006,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":32.0,
-        "location":"Raleigh,NC",
+        "location":"Raleigh, NC",
         "bbtype":"I",
         "wfreq":7.0
      },
@@ -1015,7 +1015,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":27.0,
-        "location":"Raleigh,NC",
+        "location":"Raleigh, NC",
         "bbtype":"I",
         "wfreq":0.0
      },
@@ -1024,7 +1024,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":26.0,
-        "location":"Durham,NC",
+        "location":"Durham, NC",
         "bbtype":"I",
         "wfreq":0.0
      },
@@ -1033,7 +1033,7 @@
         "ethnicity":"Caucasian",
         "gender":"F",
         "age":21.0,
-        "location":"Raleigh,NC",
+        "location":"Raleigh, NC",
         "bbtype":"I",
         "wfreq":0.0
      },
