@@ -56,6 +56,22 @@
     }
   }
 
+  #gauge {
+    height:100%;
+    width:100%;
+    overflow:hidden;
+    white-space:nowrap;
+}
+@media screen and (min-width:780px) and (max-width:991){
+#gauge {
+    height:550px;
+    width:550px;
+    overflow:hidden;
+    white-space:nowrap;
+}
+
+}
+
 /*           Font Smoothing      */
 body,
 h1, .h1,

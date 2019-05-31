@@ -191,9 +191,7 @@ function buildCharts(sample) {
             color: 'rgba(8,64,129,.9)'
           }
         }],
-      // height: 380,
-      // width: 550,
-      autosize:true,
+      height: 350,
       xaxis: {zeroline:false, showticklabels:false,
                 showgrid: false, range: [-1, 1]},
       yaxis: {zeroline:false, showticklabels:false,
@@ -208,12 +206,6 @@ function buildCharts(sample) {
 
     Plotly.newPlot('gauge', data, layout,{responsive:true});
     });
-
-    // window.onresize = function() {
-    //   Plotly.relayout('gauge', {
-    //     autosize:true
-    //   })
-    // }
 
 }
 
