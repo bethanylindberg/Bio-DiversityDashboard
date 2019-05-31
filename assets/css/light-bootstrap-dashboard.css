@@ -50,6 +50,12 @@
     }
 }
 
+@media all and (max-width: 600px){
+    select {
+       width: 100%; max-width: 100%;
+    }
+  }
+
 /*           Font Smoothing      */
 body,
 h1, .h1,
