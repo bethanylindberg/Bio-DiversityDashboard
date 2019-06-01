@@ -62,7 +62,7 @@
     overflow:hidden;
     white-space:nowrap;
 }
-@media screen and (min-width:780px) and (max-width:991){
+@media screen and (min-width:780px) and (max-width:991px){
 #gauge {
     height:550px;
     width:550px;
