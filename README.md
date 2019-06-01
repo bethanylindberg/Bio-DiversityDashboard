@@ -31,9 +31,9 @@ The keys included in the demographic data are below:
 
 * Location
 
-* Belly Button Type (type) - non-null values are either "I" or "O" to represent concave or convex navels, respectively
+* Belly Button Type (bbtype) - non-null values are either "I" or "O" to represent concave or convex navels, respectively
 
-* Washing Frequency (wfreq) -  this is a number that represents the number of times the individual scrubs their navel per week
+* Washing Frequency (wfreq) -  non-null values represent the number of times the individual scrubs their navel per week
 
 
 Both the keys and values are displayed in a table on the deployed dashboard.
@@ -44,7 +44,7 @@ There are multiple fields with null values in the dataset which leaves certain f
 
 Additionally, the OTU labels are in a string format that does not lend to an easy read when hovering over the Plot.ly visualizations.
 
-Finally, with a small sample set of 153 subjects it is difficult to draw any conclusions from the data.
+Finally, with a small sample set of 153 subjects it is difficult to draw any meaningful conclusions from the data.
 
 ## Methodology
 
